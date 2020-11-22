@@ -22,3 +22,27 @@
 <b> User story 10:</b> If user clicks the submit button without selecting an option show a prompt saying 'Please select an option'.
 
 <b> User story 11:</b> After the user successfully submits a question, show him correct or incorrect status and hide the display button and show the next button to go to next question, also disable the input fields before going to next question.
+
+<h2>OUTPUT</h2><br>
+ 1) Click on start button to start the quiz-
+<img src="QuizModule/Screenshot (74).png"> <br>
+
+ 2) Select an option
+<img src="QuizModule/Screenshot (75).png"> <br><br>
+
+ 3) If user clicks the submit button without selecting an option it show a prompt saying 'Please select an option'.
+ <img src="QuizModule/Screenshot (76).png">
+ 
+ 4) If user gives correct answer, increment scores by the score of the question and also show a correct text on screen, else  show a incorrect text on screen move the user to       next question.
+    If user gives correct answer-><br>
+    <img src="QuizModule/Screenshot (77).png"> <br><br>
+    
+    If user gives incorrect answer-><br>
+    <img src="QuizModule/Screenshot (78).png"> <br><br>
+    
+ 5)  After all the questions are attempted by the user, user's score and correct answers are displayed <br>
+     
+      <img src="QuizModule/Screenshot (79).png"> <br><br>
+    
+    
+    
