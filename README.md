@@ -28,7 +28,7 @@
 <img src="QuizModule/Screenshot (74).png"> <br>
 
  2) Select an option
-<img src="QuizModule/Screenshot (75).png"> <br><br>
+<img src="QuizModule/Screenshot (75).png"> <br><br><br><br>
 
  3) If user clicks the submit button without selecting an option it show a prompt saying 'Please select an option'.
  <img src="QuizModule/Screenshot (76).png">
