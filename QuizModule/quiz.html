@@ -1,0 +1,34 @@
+<html>
+<head>
+	<title>Quiz App</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link rel="stylesheet" href="./quiz.css">
+	 <script type="text/javascript" src="./quiz.js"></script>
+
+</head>
+<body>
+	<div id="head" class="heading">QUIZ</div>
+
+	<div class="container">
+		<div id="question-container" class="hide">
+		<div id="question" class="ques">Questions</div> <br><br>
+		<div id="answer-buttons" class="ansDiv">
+			<label class="ans"><input type="radio"  name="answer" value="1"><span id="op1"></span><br><br></label>
+			<label class="ans"><input type="radio"  name="answer" value="2"><span id="op2"></span><br><br></label>
+			<label class="ans"><input type="radio"  name="answer" value="3"><span id="op3"></span><br><br></label>
+			<label class="ans"><input type="radio"  name="answer" value="4"><span id="op4"></span><br><br></label>
+		</div>
+	</div>
+		<button id="correctOrNot" class="correct-btn hide">Correct</button>
+		<div class="controls">
+		
+			<button id="start-btn" onclick="startGame()" class="start-btn btn">Start</button>
+			<button id="next-btn" onclick="showCorrect()"  class="submit-btn btn hide">Submit</button>
+			<button id="next"  class="next-btn btn hide">Next</button>
+		</div>
+		<!--<button id="submit-btn" class="submit-btn hide">Finish Quiz</button> -->
+	</div>
+	<div id="result" class="result1" style="display: none;"></div>
+	<button id="re-btn" class="restart">Restart Quiz</button>
+</body>
+</html>
